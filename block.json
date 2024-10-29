@@ -1,0 +1,118 @@
+{
+	"apiVersion": "1",
+	"name": "bab/accordion",
+	"title": "Accordion",
+	"description": "Display customizable accordion in beautiful way.",
+	"category": "widgets",
+	"keywords": [
+		"accordion",
+		"horizontal accordion",
+		"vertical accordion"
+	],
+	"textdomain": "b-accordion",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"accordions": {
+			"type": "array",
+			"default": [
+				{
+					"title": "Accordion 1",
+					"content": "Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et. Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum. Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed."
+				},
+				{
+					"title": "Accordion 2",
+					"content": "Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et. Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum. Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed."
+				},
+				{
+					"title": "Accordion 3",
+					"content": "Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et. Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum. Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed."
+				},
+				{
+					"title": "Accordion 4",
+					"content": "Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et. Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum. Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed."
+				},
+				{
+					"title": "Accordion 5",
+					"content": "Lorem ipsum dolor sit amet consectetuer facilisis lacinia sapien ac et. Quis hendrerit neque congue pretium iaculis justo laoreet orci elit condimentum. Eros natoque Curabitur accumsan eget quis porttitor Sed Vestibulum amet sed."
+				}
+			]
+		},
+		"layout": {
+			"type": "string",
+			"default": "vertical"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"background": {
+			"type": "object",
+			"default": {
+				"color": "#0000"
+			}
+		},
+		"titleTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 16,
+					"tablet": 16,
+					"mobile": 16
+				},
+				"fontWeight": 700
+			}
+		},
+		"titleColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"titleActiveColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#8344c5"
+			}
+		},
+		"contentTypo": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 15,
+					"tablet": 15,
+					"mobile": 15
+				}
+			}
+		},
+		"contentColors": {
+			"type": "object",
+			"default": {
+				"color": "#333",
+				"bg": "#ecf0f1"
+			}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"editorScript": "file:dist/editor.js",
+	"script": "file:dist/script.js"
+}
